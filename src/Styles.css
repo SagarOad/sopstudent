@@ -1,0 +1,180 @@
+.auth-banner {
+    background: rgb(0,166,81);
+    background: linear-gradient(322deg, rgba(0,166,81,1) 0%, rgba(82,249,163,1) 82%);
+}
+
+.student-text {
+    color: rgb(0,166,81);
+    color: linear-gradient(322deg, rgba(0,166,81,1) 0%, rgba(82,249,163,1) 82%);
+}
+
+.span-timer {
+    font-size: 22px;
+}
+
+.dashboard-banner {
+    background: #E9E9E9;
+}
+.scardbg {
+   background-image: url(../src/assets//scardbg.png);   
+}
+
+.green-gradient {
+    background: rgb(242,215,53);
+background: linear-gradient(270deg, rgba(242,215,53,1) 0%, rgba(76,194,107,1) 100%);
+}
+
+.blue-gradient {
+    background: rgb(123,203,254);
+background: linear-gradient(180deg, rgba(123,203,254,1) 6%, rgba(62,179,255,1) 81%);
+}
+
+.dark-blue {
+    background-color: #016db3;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease-out;
+}
+
+.content.show {
+    height: auto;
+    max-height: 999px;
+    transition: all 0.5s ease-in;
+}
+
+.bg-\[\#E7E7E7\] {
+    border: 1px solid #dbdbdb;
+}
+
+.tooltip .tooltiptext {
+    opacity: 0;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    right: 100%;
+    width: 0px;
+    border: 0px solid #04BE5B;
+    transition: opacity 0.5s;
+}
+
+.tooltip:hover .tooltiptext {
+    width: 500px;
+    overflow-x:auto;
+    opacity: 1;
+    visibility: visible;
+    border: 2px solid #04BE5B;
+}
+
+
+.tooltip2 .tooltiptext2 {
+    opacity: 0;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    right: 90%;
+    width: 0px;
+    border: 0px solid #04BE5B;
+    transition: opacity 0.5s;
+}
+
+.tooltip2:hover .tooltiptext2 {
+    width: 500px;
+    overflow-x:auto;
+    opacity: 1;
+    visibility: visible;
+    border: 2px solid #04BE5B;
+}
+
+  .notifyPopupContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+  .flex.h-auto.py-16.px-6.md\:px-16.lg\:h-\[100vh\].lg\:py-0.lg\:px-36 {
+    background-color: white;
+}
+
+.flex.h-auto.py-16.px-6.md\:px-16.lg\:px-36.lg\:pr-0 {background: white;}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+ #main-header {
+    display: hidden;
+}
+
+  @media screen and (max-width: 1024px) {
+    #main-header {
+        display: block;
+    }
+
+    .tooltip2 .tooltiptext2 {
+        opacity: 0;
+        text-align: center;
+        border-radius: 6px;
+        width: 258px !important;
+        position: absolute;
+        top: 57px !important;
+        right: -63px !important;
+        z-index: 1;
+        width: 0px;
+        border: 0px solid #04BE5B;
+        transition: opacity 0.5s;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+  }
+
+  /* button.z-99999.block.rounded-sm.border.p-1\.5.shadow-sm.border-strokedark.bg-boxdark.lg\:hidden {
+    position: relative;
+    top: 110px;
+    
+}
+
+header.sticky.top-0.z-999.flex.w-full.bg-boxdark.drop-shadow-1.dark\:drop-shadow-none {
+    position: absolute;
+    top: -115px;
+} */
+
+.competition-subjects h1 {
+    text-align: center;
+}
+
+
+input, input::placeholder {
+    color: black !important;
+}
+
+
+select{
+    color: rgb(0, 0, 0) !important;
+  }
+  select option { color: black; }
+  select option:first-child{
+    color: rgb(0, 0, 0);
+  }
